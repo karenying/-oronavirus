@@ -1,6 +1,6 @@
 # 🅱️oronavirus
 
-Inspired by a [post](https://www.facebook.com/groups/zoommemes/?post_id=269869614035851) in the Facebook Group "[Zoom Memes for Self Quarantines](https://www.facebook.com/groups/zoommemes)", I recreated this iconic extension that replaces the 'c' in every instance of '🅱️oronavirus' and '🅱️ovid-19' with '🅱️'.
+Inspired by a [post](https://www.facebook.com/groups/zoommemes/?post_id=269869614035851) in the Facebook Group "[Zoom Memes for Self Quarantines](https://www.facebook.com/groups/zoommemes)", I recreated this iconic extension that replaces the 'C' in every instance of '🅱️oronavirus' and '🅱️OVID-19' with '🅱️'.
 
 ![Wiki pic](./assets/wiki.png)
 

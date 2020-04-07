@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
         "name": "-oronavirus",
-        "description": "Replaces the 'c' in every instance of 'coronavirus' and 'Covid-19' with '🅱️'",
+        "description": "Replaces the 'c' in every instance of 'coronavirus' and 'COVID-19' with '🅱️'",
         "version": "2.0",
         "author": "Karen Ying",
         "icons": { 
