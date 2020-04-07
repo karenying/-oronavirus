@@ -1,23 +1,31 @@
 {
     "manifest_version": 2,
-        "name": "-oronavirus",
-        "description": "Replaces the 'c' in every instance of 'coronavirus' and 'COVID-19' with '🅱️'",
-        "version": "2.0",
-        "author": "Karen Ying",
-        "icons": { 
-            "16": "assets/icon16.png",
-            "48": "assets/icon48.png",
-           "128": "assets/icon128.png" 
-        },
-        "content_scripts": [{
-            "matches": ["*://*/*"],
+    "name": "-oronavirus",
+    "description": "Replaces the 'c' in every instance of 'coronavirus' and 'COVID-19' with '🅱️'",
+    "version": "2.0",
+    "author": "Karen Ying",
+    "icons": {
+        "16": "assets/icon16.png",
+        "48": "assets/icon48.png",
+        "128": "assets/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
             "all_frames": true,
-            "js": ["contentScript.js"],
+            "js": [
+                "contentScript.js"
+            ],
             "run_at": "document_end"
-        }],
-        "permissions": ["storage"],
-        "browser_action": {
-            "default_icon": "assets/icon128.png",
-            "default_popup": "popup.html"
         }
+    ],
+    "permissions": [
+        "storage"
+    ],
+    "browser_action": {
+        "default_icon": "assets/icon128.png",
+        "default_popup": "popup.html"
     }
+}
