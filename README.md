@@ -10,4 +10,4 @@ Inspired by a [post](https://www.facebook.com/groups/zoommemes/?post_id=26986961
 3. Click "Load unpack" and select the cloned repo.
 4. Enjoy! 
 
-**Note**: the popup has the option to toggle this extension on/off. However, the changes will not be made until the page is refreshed.
+**Note**: the popup has the option to toggle this extension on/off. For off → on, the change is instantaneous. However, for on → off, the page will not reflect the change until refreshed.

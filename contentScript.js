@@ -4,16 +4,17 @@ chrome.storage.local.get(['extensionOn'], function(result) {
     }
 });
 
-/*
 chrome.storage.onChanged.addListener(function(changes, namespace) {
     if (namespace === 'local') {
-        let toggleOn = changes.extensionOn.newValue;
-        if (toggleOn) {
-            walk(document.body);
+        for (let key in changes) {
+            if (key === 'extensionOn') {
+                if (changes[key].newValue) {
+                    walk(document.body);
+                }
+            }
         }
     }
-}); 
-*/
+});
 
 function walk(node) {
     let child, next;
